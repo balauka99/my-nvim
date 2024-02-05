@@ -31,6 +31,9 @@ function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
 
+  -- Great higlights for nftables
+  use('nfnty/vim-nftables')
+
   -- LSP config
   use {
 	  'VonHeikemen/lsp-zero.nvim',
@@ -50,14 +53,6 @@ function(use)
 		  {'saadparwaiz1/cmp_luasnip'},
 		  {'rafamadriz/friendly-snippets'},
 	  }
-  }
-
-  use {
-	  "startup-nvim/startup.nvim",
-	  requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
-	  config = function()
-		  require("startup").setup({theme = "evil"}) -- put theme name here	  
-	  end
   }
 
 end)
