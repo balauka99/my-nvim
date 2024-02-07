@@ -29,3 +29,5 @@ And install atleast 20.x
 - Do this -> :so (that means source the file)
 - And do -> :PackerSync
 - Now you can cp ~/my-config/after/plugin ~/.config/nvim/after/
+
+> Pro tip: echo "alias nv = 'nvim .'" >> .bashrc (really handy)
