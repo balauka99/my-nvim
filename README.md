@@ -1,6 +1,4 @@
-# This is my personal NeoVim configuration
-
-You can use it and try it out
+### This is my personal NeoVim configuration, you can use it and try it out
 
 # Install
 
