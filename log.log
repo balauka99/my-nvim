@@ -1,0 +1,64 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  aspnetcore-runtime-7.0 aspnetcore-targeting-pack-7.0 dotnet-apphost-pack-7.0
+  dotnet-host-7.0 dotnet-hostfxr-7.0 dotnet-runtime-7.0 dotnet-sdk-7.0
+  dotnet-targeting-pack-7.0 dotnet-templates-7.0 gyp libc-ares2 libcmark0.30.2
+  libjs-events libjs-highlight.js libjs-inherits libjs-is-typedarray libjs-psl
+  libjs-source-map libjs-sprintf-js libjs-typedarray-to-buffer
+  liblttng-ust-common1 liblttng-ust-ctl5 liblttng-ust1 libluajit-5.1-2
+  libluajit-5.1-common libmsgpackc2 libnode-dev libnode72 libssl-dev
+  libtermkey1 libtree-sitter0 libunibilium4 libuv1-dev libvterm0 lua-luv
+  netstandard-targeting-pack-2.1-7.0 node-abab node-abbrev node-agent-base
+  node-ansi-regex node-ansi-styles node-ansistyles node-aproba node-archy
+  node-are-we-there-yet node-argparse node-arrify node-asap node-asynckit
+  node-balanced-match node-brace-expansion node-builtins node-chalk
+  node-chownr node-clean-yaml-object node-cli-table node-clone
+  node-color-convert node-color-name node-colors node-columnify
+  node-combined-stream node-commander node-console-control-strings
+  node-core-util-is node-cssom node-cssstyle node-debug
+  node-decompress-response node-defaults node-delayed-stream node-delegates
+  node-depd node-diff node-encoding node-end-of-stream node-err-code
+  node-escape-string-regexp node-events node-fancy-log node-foreground-child
+  node-fs-write-stream-atomic node-fs.realpath node-function-bind node-gauge
+  node-get-stream node-glob node-got node-graceful-fs node-growl node-has-flag
+  node-has-unicode node-hosted-git-info node-https-proxy-agent node-iconv-lite
+  node-iferr node-imurmurhash node-indent-string node-inflight node-inherits
+  node-ini node-ip node-ip-regex node-is-buffer node-is-plain-obj
+  node-is-typedarray node-isarray node-isexe node-json-buffer
+  node-json-parse-better-errors node-jsonparse node-kind-of node-lcov-parse
+  node-lodash-packages node-log-driver node-lowercase-keys node-lru-cache
+  node-mimic-response node-minimatch node-minimist node-minipass node-ms
+  node-mute-stream node-negotiator node-normalize-package-data
+  node-npm-bundled node-npm-package-arg node-npmlog node-object-assign
+  node-once node-osenv node-p-cancelable node-p-map node-path-is-absolute
+  node-process-nextick-args node-promise-inflight node-promise-retry
+  node-promzard node-psl node-pump node-punycode node-quick-lru node-read
+  node-read-package-json node-readable-stream node-resolve node-retry
+  node-rimraf node-run-queue node-safe-buffer node-semver node-set-blocking
+  node-signal-exit node-slash node-slice-ansi node-source-map
+  node-source-map-support node-spdx-correct node-spdx-exceptions
+  node-spdx-expression-parse node-spdx-license-ids node-sprintf-js node-ssri
+  node-stack-utils node-stealthy-require node-string-decoder node-string-width
+  node-strip-ansi node-supports-color node-text-table node-time-stamp
+  node-tmatch node-tough-cookie node-typedarray-to-buffer node-unique-filename
+  node-universalify node-util-deprecate node-validate-npm-package-license
+  node-validate-npm-package-name node-wcwidth.js node-webidl-conversions
+  node-whatwg-fetch node-wide-align node-wrappy node-write-file-atomic
+  node-yallist python3-greenlet python3-msgpack python3-neovim python3-pynvim
+  xclip
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  nodejs
+1 to upgrade, 0 to newly install, 0 to remove and 0 not to upgrade.
+Need to get 0 B/26.1 MB of archives.
+After this operation, 162 MB of additional disk space will be used.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 252452 files and directories currently installed.)
+Preparing to unpack .../nodejs_20.11.0-1nodesource1_amd64.deb ...
+Unpacking nodejs (20.11.0-1nodesource1) over (12.22.9~dfsg-1ubuntu3.3) ...
+dpkg: error processing archive /var/cache/apt/archives/nodejs_20.11.0-1nodesource1_amd64.deb (--unpack):
+ trying to overwrite '/usr/include/node/common.gypi', which is also in package libnode-dev 12.22.9~dfsg-1ubuntu3.3
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Errors were encountered while processing:
+ /var/cache/apt/archives/nodejs_20.11.0-1nodesource1_amd64.deb
